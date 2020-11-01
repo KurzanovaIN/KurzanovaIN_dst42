@@ -1,0 +1,27 @@
+
+
+1) устанавливаем число по умолчанию predict = 50 (до цикла)
+2) если > predict:
+	- 51:100
+	- predict = (51:100) / 2
+3) если < predict:
+	- 1:49
+
+
+
+number = 64
+
+1) устанавливаем число по умолчанию predict = random (до цикла) 57
+2) если number > predict:
+	predict = (predict+100) // 2  #82,
+		number < predict:
+				while number != predict:
+					count+=1
+					predict+=1
+3) если number < predict:
+	predict = predict // 2   #41
+		number > predict:
+				while number != predict:
+					count+=1
+					predict+=1
+					
